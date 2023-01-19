@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 move;
 
-    [Range(100,600)]public float playerSpeed = 100f;
+    [Range(10, 100)]public float playerSpeed = 10f;
 
     private void Awake()
     {
